@@ -30,7 +30,7 @@ const categories = [
 
 const Categories = () => {
   return (
-    <section className="bg-slate-50 py-16">
+    <section className=" py-16">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
           Top Categories
