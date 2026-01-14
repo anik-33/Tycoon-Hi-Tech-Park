@@ -19,7 +19,7 @@ const Sliders = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[400px] overflow-hidden">
+    <div className="relative w-full h-[200px] sm:h-[250px] md:h-[400px] lg:h-[500px] overflow-hidden">
       <AnimatePresence>
         <motion.img
           key={current}
