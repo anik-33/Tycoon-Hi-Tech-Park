@@ -1,4 +1,5 @@
 import React from 'react';
+import { Typewriter } from 'react-simple-typewriter';
 import heroimg from '../../assets/Product/6.jpeg';
 
 const Hero = () => {
@@ -11,7 +12,15 @@ const Hero = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
             Innovative Electronics <br />
             <span className="text-[#dd2400]">
-              Built for Modern Living
+              <Typewriter
+                words={['Built for Modern Living', 'Smart Home Solutions', 'Future-Ready Tech']}
+                loop={0} // 0 means infinite loop
+                cursor
+                cursorStyle="_"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={2000}
+              />
             </span>
           </h1>
 

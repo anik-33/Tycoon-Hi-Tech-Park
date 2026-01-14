@@ -4,7 +4,7 @@ import SubNavbar from '../SubNavbar/SubNavbar';
 
 const Header = () => {
     return (
-        <div>
+        <div className="sticky top-0 z-50 bg-white">
             <Navbar></Navbar>
             <SubNavbar></SubNavbar>
         </div>

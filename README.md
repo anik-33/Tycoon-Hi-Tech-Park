@@ -1,16 +1,42 @@
-# React + Vite
+# Tycoon Hi-Tech Park
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tycoon Hi-Tech Park Ltd. is a Bangladesh-based technology and electronics manufacturing company dedicated to delivering high-quality, innovative consumer electronics and home appliances. With a deep commitment to the “Made in Bangladesh” ethos, we design and produce products that combine modern technology with reliable performance for households and businesses nationwide.
+Our mission is to elevate the standard of local manufacturing and empower Bangladeshi consumers with products that rival global brands in quality, affordability, and durability.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Netlify: [View Live Project](https://tycoonbd.netlify.app/)
 
-## React Compiler
+**How to Run Locally:**  
+```bash
+npm install 
+npm run dev
+```
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend Framework & Build Tools
+- **React** `^19.2.0` - UI library for building interactive interfaces
+- **Vite** `^7.2.4` - Fast build tool and dev server
+- **React Router** `^7.12.0` - Client-side routing
 
-## Expanding the ESLint configuration
+### Styling & UI
+- **Tailwind CSS** `^4.1.18` - Utility-first CSS framework
+- **DaisyUI** `^5.5.14` - Tailwind CSS component library
+- **Lucide React** `^0.562.0` - Icon library
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Form & Validation
+- **React Hook Form** `^7.71.1` - Performant, flexible form validation
+- **Web3Forms** `^1.1.3` - Backend form submission service
+
+### Animations & Effects
+- **Framer Motion** `^12.26.2` - Animation library for React
+- **React Simple Typewriter** `^5.0.1` - Typewriter animation effect
+
+### Notifications
+- **React Toastify** `^11.0.5` - Toast notification library
+
+### Development Tools
+- **ESLint** `^9.39.1` - Code linting
+- **ESLint React Plugins** - React-specific linting rules
+
+
