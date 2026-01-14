@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 
 
 const slides = [
-  "/public/1.jpeg",
-  "/public/6.jpeg",
-  "/public/8.jpeg",
+  "/1.jpeg",
+  "/6.jpeg",
+  "/8.jpeg",
 ];
 
 const Sliders = () => {

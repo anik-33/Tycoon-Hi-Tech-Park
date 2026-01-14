@@ -3,28 +3,25 @@ import React from "react";
 const categories = [
   {
     name: "Refrigerator",
-    img: "/public/1.jpeg",
+    img: "/1.jpeg",
   },
   {
     name: "Home Appliance",
-    img: "/public/3.jpeg",
+    img: "/3.jpeg",
   },
   {
     name: "Kitchen Appliance",
-    img: "/public/2.jpeg",
+    img: "/2.jpeg",
   },
   {
     name: "Rice Cooker",
-    img: "/public/4.jpeg",
+    img: "/4.jpeg",
   },
   {
     name: "Mixer Grinder",
-    img: "/public/2.jpeg",
+    img: "/2.jpeg",
   },
-  {
-    name: "LED TV",
-    img: "/public/2.jpeg",
-  },
+ 
 
 ];
 
@@ -36,7 +33,7 @@ const Categories = () => {
           Top Categories
         </h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
           {categories.map((cat) => (
             <div
               key={cat.name}
